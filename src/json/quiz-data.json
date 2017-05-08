@@ -1,0 +1,14 @@
+questions: [
+	{
+		"question": "How many days do you have?",
+		"answers": ["1","2-3","3-4","4+"]
+	},
+	{
+		"question": "Any interest in The Lord of the Rings?",
+		"answers": ["Yesss Precious!","Yeah, I saw the movies", "None at all"]
+	},
+	{
+		"question": "Scenery preference?",
+		"answers": ["Mountains","Oceans"]
+	}
+]

@@ -1,0 +1,18 @@
+{{#each questions as |qData qIndex|}}
+<section class="quiz-step question">
+	<h2>{{question}}</h2>
+	<div class="responses {{style}}">
+		{{#each answers}}
+			<input data-index="{{@index}}" type="radio" name="q{{qIndex}}" id="q{{qIndex}}-{{@index}}" value="{{value}}">
+			<label for="q{{qIndex}}-{{@index}}">
+				<span class="answer-text">
+					{{#if qData.icons}}
+						<img src='dist/assets/{{text}}.svg'/>
+					{{/if}}
+					{{text}}
+				</span>
+			</label>
+		{{/each}}
+	</div>
+</section> 
+{{/each}}  

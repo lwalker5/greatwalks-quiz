@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <title>Great Walks quiz</title> 
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="dist/css/min/styles.min.css"> 
+    </head>
+    <body>
+        <div class="quiz-wrapper">
+            <header class="quiz-header">
+                <div class="inner-wrapper">
+                    <img src="dist/assets/nz_outline.svg" class="svg-icon"/>
+                    <h1>Quiz: Which of New Zealand's Great Walks is best for you?</h1>
+                </div>
+            </header>
+            <form id="quizForm" class="quiz-wrapper first">
+                <div class="inner-wrapper">
+                    <div id="questions-wrapper" class="questions-wrapper">
+                    </div>
+                    <div id="resultsWrapper" class="quiz-step results-wrapper">
+                    </div>
+                    <div class="control-buttons">
+                        <span id="validationMessage" class="invisible validation-message hidden">Please select one of the options above.</span>
+                        <button type="button" id="backBtn" class="action-button no-results no-first">Back</button>
+                        <button type="button" id="nextBtn" class="action-button no-results no-last">Next</button>
+                        <button type="button" id="finishBtn" class="action-button no-results last-only">Finish</button>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <span id="progressBar" class="progress-bar"></span>
+                    </div>
+                    <span id="progressText" class="progress-text">Question 1 of 3</span>
+                    <div class="control-buttons">
+                        <button type="button" id="resetBtn" class="action-button single results-only">Take the Quiz Again</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="dist/js/handlebars.min.js"></script>
+        <script src="dist/js/templates.js"></script>
+        <script src="dist/js/main.min.js"></script>
+    </body>
+</html>
+
+

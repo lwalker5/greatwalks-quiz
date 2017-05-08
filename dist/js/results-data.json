@@ -1,0 +1,49 @@
+{
+	"results": {
+		"kepler": {
+			"name" : "The Kepler Track",
+			"duration": "3-4 days",
+			"img_src": "dist/assets/kepler.jpg",
+			"desc": "Vast tussock-covered ridgelines and spectacular alpine vistas contrast with peaceful lakeside and valley beech forest in this wilderness adventure.",
+			"leftpos" : "4%",
+			"toppos" : "78%",
+			"infolink" : "http://www.doc.govt.nz/keplertrack"
+		},  
+		"routeburn": {
+			"name" : "The Routeburn Track",
+			"duration": "2-3 days",
+			"img_src": "dist/assets/routeburn.jpg", 
+			"desc" : "This is the ultimate alpine adventure, weaving through meadows, reflective tarns and alpine gardens. You'll be rewarded with spectacular vistas over vast mountain ranges and valleys.",
+			"leftpos" : "6%",
+			"toppos" : "76%",
+			"infolink" : "http://www.doc.govt.nz/routeburntrack"
+		},
+		"tongariro": {
+			"name" : "The Tongariro Crossing",
+			"duration": "1 day",
+			"img_src": "dist/assets/tongariro.jpg", 
+			"desc" : "Explore the volcanic heart of Tongariro National Park, a landscape of stark glacial contrasts and alpine views. Features the one and only Mount Doom.",
+			"leftpos" : "68%",
+			"toppos" : "31%",
+			"infolink" : "http://www.doc.govt.nz/tongarironortherncircuit"
+		},
+		"abeltasman": {
+			"name" : "The Abel Tasman Coast Track",
+			"duration": "3-5 days",
+			"img_src": "dist/assets/abeltasman.jpg", 
+			"desc": "Blessed with a mild climate, golden beaches and lush coastal native bush, the Abel Tasman Coast Track has it all.",
+			"leftpos" : "44%",
+			"toppos" : "44%",
+			"infolink" : "http://www.doc.govt.nz/abeltasmantrack"
+		},
+		"milford": {
+			"name" : "The Milford Track",
+			"duration": "4 days",
+			"img_src": "dist/assets/milford.jpg",
+			"desc": "Blessed with a mild climate, golden beaches and lush coastal native bush, the Abel Tasman Coast Track has it all.",
+			"leftpos" : "1%",
+			"toppos" : "76%",
+			"infolink" : "http://www.doc.govt.nz/milfordtrack"
+		}
+	}
+}
