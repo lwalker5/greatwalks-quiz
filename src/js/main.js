@@ -15,7 +15,7 @@
         /*dynamically display questions based on template*/
         buildQuiz: function() { 
             var self = this;
-            $j.getJSON("dist/js/quiz-data.json", function(questionsData){
+            $j.getJSON("./dist/js/quiz-data.json", function(questionsData){
                 var $questionsWrapper = $j('#questions-wrapper'),
                     questionsTemplate = QuizCore.templates['question-template'](questionsData);
 
@@ -149,7 +149,7 @@
                 resultsTemplate,
                 self = this;
 
-            $j.getJSON("dist/js/results-data.json", function(resultsData){
+            $j.getJSON("./dist/js/results-data.json", function(resultsData){
                 var result = resultsData.results[resultKey];
                 resultsTemplate = QuizCore.templates['results-template'](result);
                 $resultsSection.html(resultsTemplate);

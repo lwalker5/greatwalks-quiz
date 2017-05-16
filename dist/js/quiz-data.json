@@ -1,14 +1,51 @@
-questions: [
+{ "questions": [
 	{
 		"question": "How many days do you have?",
-		"answers": ["1","2-3","3-4","4+"]
+		"answers": [{
+			"text" : "1",
+			"value" : "1"
+		},
+		{
+			"text" : "2-3",
+			"value" : "2"
+		},
+		{
+			"text" : "3-4",
+			"value" : "3"
+		},
+		{
+			"text" : "4+",
+			"value" : "4"
+		}],
+		"style": "horizontal"
 	},
 	{
 		"question": "Any interest in The Lord of the Rings?",
-		"answers": ["Yesss Precious!","Yeah, I saw the movies", "None at all"]
+		"answers": [{
+			"text" : "Yesss Precious!",
+			"value" : "yesplus"
+		},
+		{
+			"text" : "Yeah, I saw the movies", 
+			"value" : "yes"
+		},
+		{
+			"text" : "None at all",
+			"value" : "no"
+		}],
+		"style": "vertical"
 	},
 	{
 		"question": "Scenery preference?",
-		"answers": ["Mountains","Oceans"]
+		"answers": [{
+			"text" : "Mountains",
+			"value" : "mountains"
+		},
+		{
+			"text" : "Oceans",
+			"value" : "oceans"
+		}],
+		"style": "horizontal icons",
+		"icons" : true
 	}
-]
+]}
